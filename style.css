@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    
+    background-color: rgb(255, 0, 191); box-shadow: 10px -5px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    padding: 50px;
+    border-radius: 5%;
+
+    
+    
+}
+
+.imagem{
+        padding-top: 80px;
+        max-width: 450px;
+        max-width: 450px;
+        
+}
+
+.person-img{
+    padding: 150px;
+}
+
+.login{
+    padding: 10px 40px 40px 10px;
+    color: aqua;
+    font-size: 70px;
+    font-family: 'Russo One';
+    
+    
+}
+
+.campo-digitacao{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.botao{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p{
+    font-family: 'Russo One';
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: blueviolet;
+}
