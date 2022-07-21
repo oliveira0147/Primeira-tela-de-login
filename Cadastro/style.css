@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex; 
+    align-items: center;
+    background-color: blueviolet;
+    justify-content: center;
+    
+}
+
+.person-image{
+    display: flex;
+ 
+}
+
+.person{
+    display: flex;
+    height: 650px;
+    padding-top: 80px;
+    
+}
+
+.cadastro{
+    background-color: rgb(255, 0, 191); box-shadow: 10px -5px rgb(0, 0, 0);
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+.tela-login{
+    font-family: 'Russo One';
+    font-size: 30px;
+}
+
+.voltar{
+    font-size: 20px;
+    color: black;
+    
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.botao:hover{
+    background-color: blueviolet;
+    transition: 0.5;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
